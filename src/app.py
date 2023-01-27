@@ -8,7 +8,7 @@ from const import CLASSES, COLORS
 from settings import DEFAULT_CONFIDENCE_THRESHOLD, DEMO_IMAGE, MODEL, PROTOTXT
 
 
-st.title("Object detection")
+st.title("Object detection modified")
 img_file_buffer = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 
 
